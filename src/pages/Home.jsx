@@ -156,7 +156,7 @@ export default function Home() {
                   <div className={styles.productInfo}>
                     <h3>{p.name}</h3>
                     <p>{p.price}</p>
-                    <a href={p.link}>View Product</a>
+                    <Link to={p.link}>View Product</Link>
                   </div>
                 </div>
               ))}
