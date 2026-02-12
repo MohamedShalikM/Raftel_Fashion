@@ -116,7 +116,7 @@ export default function Home() {
                   <img src={item.img} alt={item.title} />
                   <span>{item.off} off</span>
                   
-                    <a href={item.link}><button>Shop now</button></a>
+                    <Link to={item.link}><button>Shop now</button></Link>
                  
                   {/* <li>
                     <img
